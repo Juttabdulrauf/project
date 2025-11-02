@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="project.html">My projects</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="hero">
+        <p id="greeting"></p>
+
+        <h1>Welcome to Our Project Page</h1>
+        <p>Discover our work and get to know more about us.</p>
+    </div>
+    <section class="features">
+        <div class="feature">
+            <h3>Fast & Responsive-</h3>
+            <p>Lightweight pages that work on any device.</p>
+        </div>
+        <div class="feature">
+            <h3>Clean Code</h3>
+            <p>Readable, maintainable HTML/CSS/JS.</p>
+        </div>
+        <div class="feature">
+            <h3>Design Focused</h3>
+            <p>UI-first approach with UX best practices.</p>
+        </div>
+    </section>
+    <section class="projects">
+        <h2 id="projects-heading">My Projects</h2>
+        <div class="project-list">
+            <article class="project-item"><a href="gaming site/index.html"><img
+                        src="assets/Arcadia Gaming — Pro Theme - Profile 1 - Microsoft​ Edge 13_10_2025 11_18_02 pm.png"
+                        alt="Screenshot of Project One"></a>
+                <div class="project-body">
+                    <h4>Gaming website</h4>
+                    <p>A professional Gaming site using HTML and CSS</p>
+                </div>
+            </article>
+            <article class="project-item"><a href="E-commerce/index.html"><img
+                        src="assets/ShopEase — Modern E-commerce - Profile 1 - Microsoft​ Edge 13_10_2025 11_31_53 pm.png"
+                        alt="Screenshot of Project Two"></a>
+                <div class="project-body">
+                    <h4>E-commerce Website</h4>
+                    <p>An E-commerce Website using HTML and CSS</p>
+                </div>
+            </article>
+            <article class="project-item"><a href="forms/index.html">
+                <img src="assets/Screenshot (2).png" alt="Screenshot of Project Three"></a>
+                <div class="project-body">
+                    <h4>Simple Login and Sign Up</h4>
+                    <p>This project include simple Login and Signup pages using HTML and CSS</p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section class="about">
+        <h2>About Us</h2>
+        <p>We build focused web experiences with attention to performance and detail. <a href="about.html">Learn
+                more</a>.</p>
+    </section>
+    <section class="cta">
+        <h2>Like what you see?</h2><a class="btn" href="contact.html">Get in touch</a>
+    </section>
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:raufjutt4883@gmail.com">raufjutt4883@gmail.com</a></p>
+
+    </section>
+    <footer>
+        <p>&copy; 2025 Abdul Rauf &amp; Sameer Ali. All rights reserved.</p>
+    </footer>
+    <script>
+        var greeting1 = prompt("Please enter your name:");
+        var greetingElement = document.getElementById("greeting");
+        greetingElement.textContent = "Hello, " + greeting1 + "!";
+
+    </script>
+</body>
+
+</html>
