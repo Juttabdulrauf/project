@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — ShopEase</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand">ShopEase</a>
+      <nav class="nav" id="nav">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="collections.html">Collections</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" aria-label="search">🔍</button>
+        <button class="icon-btn" aria-label="cart">🛒<span class="cart-count">3</span></button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="contact" class="contact container">
+      <h2 class="section-title">Stay in touch</h2>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Get in touch</h3>
+          <p>Questions about an order, product details, or partnerships? Reach out and we'll reply within 1–2 business days.</p>
+
+          <ul class="info-list">
+            <li><strong>Email:</strong> <a href="mailto:help@shopease.example">help@shopease.example</a></li>
+            <li><strong>Phone:</strong> <a href="tel:+1234567890">+1 (234) 567-890</a></li>
+            <li><strong>Address:</strong> 123 Commerce St, Suite 200, Cityville</li>
+            <li><strong>Hours:</strong> Mon–Fri 9am–5pm (local time)</li>
+          </ul>
+
+          <h4>Follow us</h4>
+          <p class="social-links">
+            <a href="#" aria-label="Instagram">Instagram</a> •
+            <a href="#" aria-label="Twitter">Twitter</a> •
+            <a href="#" aria-label="Facebook">Facebook</a>
+          </p>
+
+          <p class="privacy-note">We respect your privacy — we only use your contact info to respond to your inquiry. No marketing without consent.</p>
+        </div>
+
+        <div class="contact-form-wrap reveal">
+          <form class="contact-form" action="#" method="post">
+            <div class="form-row">
+              <input type="text" name="name" placeholder="Your name" required />
+              <input type="email" name="email" placeholder="Your email" required />
+            </div>
+            <div class="form-row">
+              <input type="text" name="subject" placeholder="Subject" />
+              <input type="tel" name="phone" placeholder="Phone (optional)" />
+            </div>
+            <div class="form-row">
+              <textarea name="message" rows="6" placeholder="How can we help you?" required></textarea>
+            </div>
+            <div class="form-row">
+              <button class="btn primary" type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Abdul Rauf — Built with ❤️</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

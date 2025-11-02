@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ShopEase — Modern E-commerce</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#" class="brand">ShopEase</a>
+      <nav class="nav" id="nav">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="collections.html">Collections</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" aria-label="search">🔍</button>
+        <button class="icon-btn" aria-label="cart">🛒<span class="cart-count">3</span></button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1>Stylish gear for everyday adventures</h1>
+          <p>Discover curated collections of apparel, accessories, and home goods crafted for comfort and longevity. Free shipping over $50.</p>
+          <div class="hero-cta">
+            <a class="btn primary" href="products.html">Shop Now</a>
+            <a class="btn ghost" href="collections.html">Explore Collections</a>
+          </div>
+        </div>
+        <div class="hero-images" aria-hidden="true">
+          <img class="img-1" src="https://images.unsplash.com/photo-1520975917278-8d85b5b2a8b5?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=3b0e0a7f4a1c1a8f5a6e7c9f0f2f9b4d" alt="Featured product 1">
+          <img class="img-2" src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=0fba1e3a2b8d3f2f7c5a1e2d5a6b9c0d" alt="Featured product 2">
+        </div>
+      </div>
+    </section>
+
+    <section id="collections" class="collections container">
+      <h2 class="section-title">Collections</h2>
+      <div class="grid collections-grid">
+        <article class="card reveal">
+          <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=179f3f6d8b6d9c5e0fdf6c2c2aef8d6b" alt="Outdoor collection">
+          <div class="card-body">
+            <h3>Outdoor</h3>
+            <p>Rugged, weather-ready items for trail and city.</p>
+          </div>
+        </article>
+        <article class="card reveal">
+          <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=4f3a5c1a6e7b2c9d0f1e2a3b4c5d6e7f" alt="Casual wear">
+          <div class="card-body">
+            <h3>Casual</h3>
+            <p>Everyday staples with a modern twist.</p>
+          </div>
+        </article>
+        <article class="card reveal">
+          <img src="https://images.unsplash.com/photo-1526178611938-7a7b1b5b6b4b?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=abc123abc123abc123abc123abc123ab" alt="Home">
+          <div class="card-body">
+            <h3>Home</h3>
+            <p>Design-forward home goods that last.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="products" class="products container">
+      <h2 class="section-title">Featured Products</h2>
+      <div class="grid products-grid">
+        
+        <article class="product-card reveal">
+          <div class="product-media">
+            <img src="https://images.unsplash.com/photo-1540574163026-643ea20ade25?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=3b0b8c9f2a6d9e5f6c7b8a9d0e1f2a3b" alt="Backpack">
+            <button class="add-btn">Add</button>
+          </div>
+          <div class="product-info">
+            <h3>Adventurer Backpack</h3>
+            <p class="price">$89</p>
+          </div>
+        </article>
+
+        <article class="product-card reveal">
+          <div class="product-media">
+            <img src="https://images.unsplash.com/photo-1519744792095-2f2205e87b6f?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=2b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e" alt="Sneakers">
+            <button class="add-btn">Add</button>
+          </div>
+          <div class="product-info">
+            <h3>Everyday Sneakers</h3>
+            <p class="price">$69</p>
+          </div>
+        </article>
+
+        <article class="product-card reveal">
+          <div class="product-media">
+            <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b" alt="Mug">
+            <button class="add-btn">Add</button>
+          </div>
+          <div class="product-info">
+            <h3>Ceramic Mug</h3>
+            <p class="price">$24</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="about container">
+      <h2 class="section-title">About ShopEase</h2>
+      <p class="lead">We design thoughtful products with an emphasis on sustainability and quality. Small-batch manufacturing, transparent pricing, and customer-first support.</p>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h2 class="section-title">Stay in touch</h2>
+      <form class="contact-form">
+        <input type="email" placeholder="Your email" required />
+        <button class="btn primary">Subscribe</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Abdul Rauf — Built with ❤️</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
